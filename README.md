@@ -8,6 +8,7 @@ First, download and install julia from `https://julialang.org/downloads/#downloa
 ```julia
 julia> using Pkg
 julia> Pkg.add(["ArgParse", "MAT", "PortHamiltonianBenchmarkSystems", "LinearAlgebra", "SparseArrays"])
+julia> Pkg.add(url="https://github.com/Algopaul/PortHamiltonianBenchmarkSystems.jl/")
 ```
 Then, clone this repository.
 
