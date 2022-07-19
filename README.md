@@ -13,7 +13,7 @@ julia> Pkg.add(url="https://github.com/Algopaul/PortHamiltonianBenchmarkSystems.
 Then, clone this repository.
 
 ## Usage
-Navigate to the directory of this repository and call (in the shell)
+Navigate to the directory of this repository and call (in your shell and *not* from the julia REPL)
 ```bash
 $ julia phbs_cli --help
 ```
