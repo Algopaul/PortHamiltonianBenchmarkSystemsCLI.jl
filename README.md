@@ -7,7 +7,7 @@ Command line interface for PortHamiltonianBenchmarkSystems
 First, download and install julia from [here](https://julialang.org/downloads/#download_julia) for your operating system. Then install the required packages within a julia session:
 ```julia
 julia> using Pkg
-julia> Pkg.add(["ArgParse", "MAT", "PortHamiltonianBenchmarkSystems", "LinearAlgebra", "SparseArrays"])
+julia> Pkg.add(["ArgParse", "MAT", "LinearAlgebra", "SparseArrays"])
 julia> Pkg.add(url="https://github.com/Algopaul/PortHamiltonianBenchmarkSystems.jl/")
 ```
 Then, clone this repository.
