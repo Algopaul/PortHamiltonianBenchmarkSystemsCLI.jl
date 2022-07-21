@@ -15,7 +15,7 @@ Then, clone this repository.
 ## Usage
 Navigate to the directory of this repository and call (in your shell and *not* from the julia REPL)
 ```bash
-$ julia phbs_cli --help
+$ julia phbs_cli.jl --help
 ```
 
 ## Example
