@@ -97,11 +97,11 @@ end
 function pH_selector(parsed_args)
     if parsed_args["%COMMAND%"] == "pH_msd"
         config = SingleMSDConfig(
-            parsed_args["pH_msd"]["n_cells"],
-            parsed_args["pH_msd"]["io_dim"],
-            parsed_args["pH_msd"]["c"],
-            parsed_args["pH_msd"]["k"],
-            parsed_args["pH_msd"]["m"],
+            n_cells = parsed_args["pH_msd"]["n_cells"],
+            io_dim = parsed_args["pH_msd"]["io_dim"],
+            c = parsed_args["pH_msd"]["c"],
+            k = parsed_args["pH_msd"]["k"],
+            m = parsed_args["pH_msd"]["m"],
         )
         save(PHSystem(config), parsed_args["filename"])
         return nothing
