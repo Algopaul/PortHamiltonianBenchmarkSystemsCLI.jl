@@ -21,7 +21,7 @@ $ julia phbs_cli.jl --help
 ## Example
 To obtain the `.mat`-file of the pH mass-spring-damper chain with `50` cells and a stiffness coefficient `k` of `4.5`, call
 ```bash
-$ julia phbs_cli pH_msd --n_cells 50 --k 4.5
+$ julia phbs_cli.jl pH_msd --n_cells 50 --k 4.5
 ```
 Then `PHSystem.mat` file contains the desired system matrices `E, J, R, Q, G, P, S, N`.
 
